@@ -1,0 +1,277 @@
+/*统一样式*/
+*{
+	margin:0;
+	padding:0;
+}
+ul li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+body{
+	background:#f1f1f1;
+}
+/*头部样式*/
+#head{
+	width:100%;
+	height:120px;
+	outline:none;
+}
+#head .head-left{
+	width:1100px;
+	margin:0 auto;
+}
+#head .head-right{
+	color:#666;
+	float:right;
+	font-size:16px;
+	margin-top:60px;
+}
+#head .head-right a{
+	color:#999;
+}
+#head .head-right a:hover{
+	color:black;
+}
+#head .head-logo{
+	background:url(../images/logo.png) no-repeat;
+	width:220px;
+	height:42px;
+	background-position:0px 0px;
+	margin-top:20px;
+	float:left;
+}
+/*中间部分*/
+.center{
+	width:1100px;
+	height:680px;
+	background:#fff;
+	margin:0 auto;
+}
+.center .center-find{
+	padding:36px 0;
+	width:100%;
+	display:block;
+	border-bottom:1px solid #eaeaea;
+	text-align:center;
+	color:#4c4c4c; font-size:20px;
+	font-family:微软雅黑,宋体;
+}
+.center ul{
+	width:100%;
+	height:82px;
+}
+.center  ul li{
+	float:left;
+	line-height:82px;
+	width:285px;
+	height:82px;
+	text-align:center;
+	cursor:pointer;
+}
+.center .center-select{
+	color:#0095ff;
+}
+/*中间输入框*/
+.center .center-put{
+	width:100%;
+	height:300px;
+	left:0;
+	/*border:1px solid red;*/
+}
+/*安全验证*/
+.center .one{
+	width:430px;
+	height:250px;
+	margin:0 auto;
+	display:none;
+/*	border:1px solid red;*/
+}
+.center .center-put .show{
+	display:block;
+}
+/*输入手机号*/
+.center .center-box{
+	width:300px;
+	height:42px;
+	border:1px solid #999;
+	margin:0 auto;
+}
+.center .center-box .country{
+	width:44px;
+	height:42px;
+}
+.center .center-box .country img{
+	width:22px;
+	height:20px;
+	margin:11px 11px;
+}
+.center .center-box .write{
+	width:260px;
+	height:42px;
+	margin:-43px 45px;
+}
+.center .center-box .write input{
+	width:254px;
+	height:40px;
+}
+/*输入验证码*/
+.center .center-two{
+	width:300px;
+	height:42px;
+/*	border:1px solid #999;*/
+	margin:20px auto;
+}
+.center .center-two .two{
+	width:192px;
+	height:40px;
+	margin:-1px -1px;
+}
+.center .center-two .two input{
+	width:192px;
+	height:40px;
+}
+.center .center-two .two-left{
+	width:89px;
+	height:42px;
+	border:1px solid #999;
+	margin:-40px 210px;
+}
+/*获取手机验证码*/
+.center .center-three{
+	width:300px;
+	height:42px;
+	/*border:1px solid #999;*/
+	margin:20px auto;
+}
+.center .center-three .three{
+	width:192px;
+	height:40px;
+	margin:-1px -1px;
+}
+.center .center-three .three input{
+	width:192px;
+	height:40px;
+}
+.center .center-three .three-left{
+	width:89px;
+	height:42px;
+	/*border:1px solid #999;*/
+	margin:-40px 210px;
+}
+.center .center-three .three-left button{
+	width:91px;
+	height:44px;
+	cursor:pointer;
+}
+.center .center-login{
+	width:300px;
+	height:40px;
+	margin:30px auto;
+}
+.center .center-login a{
+	width:300px;
+	height:40px;
+	display:block;
+	text-align: center;
+	line-height: 40px;
+	background:#4cbafe;
+	border:1px solid #4cbafe;
+	cursor:pointer;
+	color:white;
+}
+.center-right{
+	width:240px;
+	height:680px;
+	margin:-481px 860px;
+}
+/*设置新密码*/
+/*设置密码下的输入手机号*/
+.center .newpass-box{
+	width:300px;
+	height:42px;
+	margin:0 auto;
+}
+.center .newpass-box input{
+	width:300px;
+	height:40px;
+}
+/*设置密码下的输入新密码*/
+.center .newpass-two{
+	width:300px;
+	height:42px;
+	margin:20px auto;
+}
+.center .newpass-two input{
+	width:300px;
+	height:42px;
+}
+.center .newpass-login{
+	width:300px;
+	height:40px;
+	margin:30px auto;
+}
+.center .newpass-login a{
+	width:300px;
+	height:40px;
+	display:block;
+	text-align: center;
+	line-height: 40px;
+	background:#4cbafe;
+	border:1px solid #4cbafe;
+	cursor:pointer;
+	color:white;
+}
+/*设置新密码下的设置成功设置样式*/
+.sucess{
+	width:100px;
+	height:100px;
+	margin:0 auto;
+}
+.sucess .sucess-ok{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	border:1px solid #ccc;
+	text-align:center;
+	font-size:50px;
+	line-height:100px;
+}
+.sucess-down{
+	width:300px;
+	height:40px;
+	margin:50px auto;
+}
+.sucess-down a{
+	width:300px;
+	height:40px;
+	display:block;
+	text-align: center;
+	line-height: 40px;
+	background:#4cbafe;
+	border:1px solid #4cbafe;
+	cursor:pointer;
+	color:white;
+}
+/*最后结尾部分*/
+.end{
+	width:1100px;
+	height:115px;
+	margin:0 auto;
+	float:left;
+}
+.end .end-top{
+	text-align:center;
+	font-size:13px;
+	margin-top:25px;
+}
+.end .end-top a{
+	color:#999;
+}
+.end p{
+	text-align:center;
+	margin-top:10px;
+	font-size:13px;
+	color:#999;
+}

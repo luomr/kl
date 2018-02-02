@@ -1,0 +1,201 @@
+/*联系方式*/
+.page6{
+    width:100%;
+    background:#fff;
+    border-top: 1px solid #EAEAEA;
+}
+.page6 .lx{
+    width:1180px;
+    height:384px;
+    margin:0 auto;
+}
+.page6 .lx .he{
+    width:100%;
+    height:125px;
+    border-bottom: 1px solid #EAEAEA;
+}
+.page6 .lx .he div{
+    width:25%;
+    height:125px;
+    text-align: center;
+    float:left;
+}
+.page6 .lx .he div i{
+    width:44px;
+    height:44px;
+    display:block;
+    float:left;
+    margin-top:40px;
+}
+.page6 .lx .he div i.he_1{
+    background:url(../images/icon1.png) no-repeat -751px 0;
+}
+.page6 .lx .he div i.he_2{
+    background:url(../images/icon1.png) no-repeat -812px 0;
+}
+.page6 .lx .he div i.he_3{
+    background:url(../images/icon1.png) no-repeat -873px 0;
+}
+.page6 .lx .he div i.he_4{
+    background:url(../images/icon1.png) no-repeat -935px 0;
+}
+.page6 .lx .he div strong{
+    width:220px;
+    height:22px;
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: bold;
+    display:block;
+    margin-top:40px;
+}
+.page6 .lx .he div span{
+    width:220px;
+    height:22px;
+    line-height: 22px;
+    font-size: 14px;
+    display:block;
+}
+.page6 .bo{
+    width:100%;
+    height:128px;
+    margin-top:50px;
+}
+.page6 .bo div{
+    float:left;
+}
+.page6 .bo .bo_left{
+    width:244px;
+    height:128px;
+}
+.page6 .bo .bo_left .guan{
+    margin-top: 10px;
+}
+.page6 .bo .bo_left .guan span{
+    width:50px;
+    height:32px;
+    line-height: 32px;
+    display:block;
+    font-size: 12px;
+    float:left;
+}
+.page6 .bo .bo_left .guan .chat{
+    width:32px;
+    height:32px;
+    display:block;
+    float:left;
+    margin-left: 15px;
+    border-radius:50%;
+    background: #f00;
+}
+.page6 .bo .bo_left .guan .chat1{
+    background:url(../images/icon1.png) no-repeat -752px -69px;
+}
+.page6 .bo .bo_left .guan .chat2{
+    background:url(../images/icon1.png) no-repeat -796px -69px;
+}
+.page6 .bo .bo_left .guan .chat3{
+    background:url(../images/icon1.png) no-repeat -840px -69px;
+}
+.page6 .bo .bo_left .guan .chat1:hover{
+    background:url(../images/icon1.png) no-repeat -752px -109px;
+}
+.page6 .bo .bo_left .guan .chat2:hover{
+    background:url(../images/icon1.png) no-repeat -796px -109px;
+}
+.page6 .bo .bo_left .guan .chat3:hover{
+    background:url(../images/icon1.png) no-repeat -840px -109px;
+}
+
+
+.page6 .bo .bo_mid{
+    width:680px;
+    height:128px;
+}
+.page6 .bo .bo_mid ul{
+    width:135px;
+    height:128px;
+    display:block;
+    float:left;
+    border-left: 1px solid #EAEAEA;
+}
+.page6 .bo .bo_mid ul li{
+    padding:0 30px;
+}
+.page6 .bo .bo_mid ul li h2{
+    font-size: 18px;
+    padding-bottom: 6px;
+}
+.page6 .bo .bo_mid ul li a{
+    font-size: 12px;
+    color:#333;
+}
+.page6 .bo .bo_mid ul li a:hover{
+    text-decoration: underline;
+}
+.page6 .bo .bo_right{
+    width:250px;
+    height:128px;
+}
+.page6 .bo .bo_right div{
+    width:108px;
+    height:128px;
+    margin-left:15px;
+    text-align: center;
+}
+.page6 .bo .bo_right div img{
+    width:108px;
+    vertical-align:bottom;
+}
+.page6 .bo .bo_right div span{
+    font-size: 12px;
+}
+/*页脚*/
+.page7{
+    width:100%;
+    background:#333333;
+}
+.page7 .foot{
+    width:1090px;
+    height:150px;
+    margin:0 auto;
+    color:#C2C2C2;
+}
+.page7 .foot p{
+    width:100%;
+    text-align:center;
+    padding-top: 30px;
+}
+.page7 .foot p a{
+    color:#C2C2C2;
+    font-size: 12px;
+}
+.page7 .foot p a:hover{
+    text-decoration:underline;
+}
+.page7 .foot p span{
+    font-size: 12px;
+    padding-left: 20px;
+}
+.page7 .foot p a:last-child{
+    padding-left:20px;
+}
+.page7 .foot div{
+    width:30%;
+    height:50px;
+    margin:10px auto;
+}
+.page7 .foot div a{
+    width:80px;
+    height:50px;
+    display:block;
+    float: left;
+    margin-left:20px;
+}
+.page7 .foot div a img{
+    width:80px;
+}
+.page7 .foot div a:last-child img{
+    width:28px;
+}
+
+

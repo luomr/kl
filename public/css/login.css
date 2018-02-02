@@ -1,0 +1,342 @@
+/*给所有设置样式*/
+*{
+	margin:0;
+	padding:0;
+}
+ul li{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+
+/*顶部div*/
+.he{
+	width:100%;
+	height:100px;
+	background:#fff;
+}
+.he .head{
+	width:1090px;
+	height:100px;
+	margin:0 auto;
+}
+.he .head .left{
+	width:220px;
+	height:42px;
+	float:left;
+	margin-top:30px;
+}
+.he .head .right{
+	width:504px;
+	height:100px;
+	float:right;
+}
+
+/*body*/
+.center{
+	width:100%;
+	background: #F8F8F8;
+}
+.center .zuo{
+	width:1000px;
+	height:520px;
+	margin: 0 auto;
+}
+/*左广告*/
+.center .zuo .ad{
+	width:400px;
+	height:280px;
+	display:block;
+	float:left;
+	margin-top:120px;
+}
+.center .zuo .ad img{
+	margin-top:40px;
+}
+/*右登录*/
+.center .zuo .phone{
+	width:350px;
+	border:1px solid #eaeaea;
+	float:right;
+	margin-top:48px;
+	background: #F8F8F8;
+	display:none;
+}
+.center .zuo .phone_show{
+	display:block;
+}
+.center .zuo .phone ul{
+	width:350px;
+	height:55px;
+	box-sizing:border-box;
+	position:relative;
+}
+.center .zuo .phone ul li{
+	float:left;
+	width:174px;
+	height:55px;
+	text-align:center;
+	line-height:55px;
+	box-sizing:border-box;
+	font-size:17px;
+	color:black;
+	cursor:pointer;
+}
+.center .zuo .phone ul li:hover{
+	color:#ed2345;
+}
+.center .zuo .phone ul .block{
+	color:rgb(210,31,70);
+}
+.center .zuo .phone ul .line{
+	position:absolute;
+	top:17px;
+	left:175px;
+	width:0px;
+	height:20px;
+	border-right:1px solid #ddd;
+}
+
+/*手机登录*/
+.center .zuo .phone .write{
+	width:350px;
+	background: #F8F8F8;
+}
+.center .zuo .phone .write .write_box{
+	width:350px;
+	height:286px;
+	border: 1px solid #eaeaea;
+	background: #fff;
+	display:none;
+}
+.center .zuo .phone .write .show{
+	display:block;
+}
+.center .zuo .phone .write .write_box p{
+	width:72px;
+	height:16px;
+	display:block;
+	margin-top: 20px;
+	margin-left:235px;
+	font-size:12px;
+	color:#333;
+}
+.center .zuo .phone .write .write_box p a{
+	color:#333;
+}
+.center .zuo .phone .write .write_box p a:hover{
+	color:#ed2345;
+}
+.center .zuo .phone .write .write_box p.qie{
+	display:none;
+}
+.center .zuo .phone .write .write_box p.qie_show{
+	display:block;
+}
+.center .zuo .phone .write .write_box .tel .ph{
+	display:none;
+}
+.center .zuo .phone .write .write_box .tel .ph_show{
+	display:block;
+}
+.center .zuo .phone .write .write_box form .input_box{
+	width:270px;
+	height:36px;
+	margin:16px auto;
+	border: 1px solid #eaeaea;
+}
+.center .zuo .phone .write .write_box form .infor{
+	width:270px;
+	height:16px;
+	display:block;
+	margin:0px auto;
+	font-size: 16px;
+	color:#ed2345;
+}
+.center .zuo .phone .con form .infor{
+	width:270px;
+	height:16px;
+	display:block;
+	margin:0px auto;
+	font-size: 16px;
+	color:#ed2345;
+}
+.center .zuo .phone .write .write_box form .input_box span{
+	width:39px;
+	height:34px;
+	display:block;
+	float:left;
+	border: 1px solid #eaeaea;
+}.center .zuo .phone .write .write_box form .input_box span.in_1{
+	background: url(../images/phone.png) no-repeat 10px 4px;
+}
+.center .zuo .phone .write .write_box form .input_box span.in_2{
+	background: url(../images/suo.png) no-repeat 6px 0px;
+}
+.center .zuo .phone .write .write_box form .input_box input{
+	width:227px;
+	height:34px;
+	border: 1px solid #eaeaea;
+}
+.center .zuo .phone .write .write_box form .input_box .pw{
+	width:171px;
+	height:34px;
+}
+.center .zuo .phone .write .write_box form button{
+	width:270px;
+	height:36px;
+	display:block;
+	background: #ed2345;
+	border:0px;
+	color:#fff;
+	margin:16px auto;
+}
+.center .zuo .phone .write .write_box form .input_box button{
+	width:97px;
+	height:36px;
+	float:right;
+	color:#333;
+	margin-top:0px;
+	background: #eaeaea;
+}
+.center .zuo .phone .write .bottom{
+	width:350px;
+	height:36px;
+	border: 1px solid #eaeaea;
+}
+.center .zuo .phone .write .bottom ul{
+	width:170px;
+	height:22px;
+	margin-left:30px;
+	margin-top:8px;
+	float:left;
+}
+.center .zuo .phone .write .bottom ul li{
+	width:22px;
+	height:22px;
+	display:block;
+	border-radius:50%;
+	margin-left: 10px;
+	background: url(../images/icon/icon1.png);
+}
+.center .zuo .phone .write .bottom ul li:hover{
+	opacity:.4;
+}
+.center .zuo .phone .write .bottom ul .w-icon-29{
+	background-position:-760px -401px;
+}
+.center .zuo .phone .write .bottom ul .w-icon-29-1{
+	background-position: -792px -401px;
+}
+.center .zuo .phone .write .bottom ul .w-icon-29-2{
+	background-position: -824px -401px;
+}
+.center .zuo .phone .write .bottom ul .w-icon-29-3{
+	background-position: -856px -401px;
+}
+.center .zuo .phone .write .bottom div{
+	width:100px;
+	height:36px;
+	line-height: 36px;
+	float:right;
+	margin-right: 30px;
+}
+.center .zuo .phone .write .bottom div a{
+	font-size: 14px;
+	color:#ed2345;
+}
+.center .zuo .phone .write .bottom div a:hover{
+	text-decoration:underline;
+}
+
+
+
+/*注册*/
+
+.center .zuo .phone .tit{
+	width:350px;
+	height:53px;
+	line-height: 53px;
+	background: #F8F8F8;
+}
+.center .zuo .phone .tit .select{
+	color:#ed2345;
+	font-size:16px;
+	font-weight:bold;
+	padding-left:30px;
+}
+.center .zuo .phone .tit .select1{
+	color:#333;
+	font-size:12px;
+	padding-left:110px;
+}
+.center .zuo .phone .tit .select1 a{
+	color:#65BDF1;
+}
+.center .zuo .phone .tit .select1 a:hover{
+	text-decoration:underline;
+}
+.center .zuo .phone .con{
+	width:350px;
+	height:310px;
+	border: 1px solid #eaeaea;
+	background: #fff;
+}
+
+.center .zuo .phone .con form .input_box{
+	width:270px;
+	height:36px;
+	margin:16px auto;
+	border: 1px solid #eaeaea;
+}
+.center .zuo .phone .con form .input_box span{
+	width:39px;
+	height:34px;
+	display:block;
+	float:left;
+	border: 1px solid #eaeaea;
+}.center .zuo .phone .con form .input_box span.in_1{
+	background: url(../images/phone.png) no-repeat 10px 4px;
+}
+.center .zuo .phone .con form .input_box span.in_2{
+	background: url(../images/suo.png) no-repeat 6px 0px;
+}
+.center .zuo .phone .con form .input_box input{
+	width:227px;
+	height:34px;
+	border: 1px solid #eaeaea;
+}
+.center .zuo .phone .con form .input_box .pw{
+	width:171px;
+	height:34px;
+}
+.center .zuo .phone .con form button{
+	width:270px;
+	height:36px;
+	display:block;
+	background: #ed2345;
+	border:0px;
+	color:#fff;
+	margin:20px auto;
+}
+.center .zuo .phone .con form .input_box button{
+	width:97px;
+	height:36px;
+	float:right;
+	color:#333;
+	margin-top:0px;
+	background: #eaeaea;
+}
+.center .zuo .phone .con form p{
+	width:80%;
+	height:36px;
+	font-size:12px;
+	padding-left:40px;
+}
+.center .zuo .phone .con form p a{
+	color:#666;
+}
+.center .zuo .phone .con form p a:hover{
+	color:#000;
+}
